@@ -23,7 +23,7 @@ parser.add_argument('--pick', type=int, default=100)  # Number of data to pick
 parser.add_argument('--epoch', type=int, default=100)  # Number of epochs
 
 
-parser.add_argument('--train_al', type=bool, default=False)  # Use uncertainty in training loss (Active Learning)
+parser.add_argument('--train_al', type=bool, default=True)  # Use uncertainty in training loss (Active Learning)
 parser.add_argument('--train_cm', type=bool, default=True)  # Use CutMix in training loss
 
 
